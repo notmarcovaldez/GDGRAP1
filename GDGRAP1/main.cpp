@@ -2,6 +2,8 @@
 #include <math.h>
 #include <iostream>
 
+//test
+
 void rotatePoint(float points[3], float angle, float result[3]) {
     float pi = 2 * acos(0.0);
     // Convert angle from degrees to radians
