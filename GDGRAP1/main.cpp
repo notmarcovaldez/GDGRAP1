@@ -8,7 +8,7 @@ void rotatePoint(float points[3], float angle, float result[3]) {
     // Convert angle from degrees to radians
     float radians = angle * pi / 180.0f;
 
-    // Create the rotation matrix
+    // Create rotation matrix
     float rotationMatrix[3][3] = {
         {cos(radians), -sin(radians), 0},
         {sin(radians),  cos(radians), 0},
@@ -65,11 +65,11 @@ int main(void) {
         glClear(GL_COLOR_BUFFER_BIT);
 
         for (int i = 0; i < shape; i++) {
-            // debug
-            std::cout << "Distance: " << sqrt(pow((point1x - point2x),2) + pow((point1y - point2y), 2))<< std::endl;
+            // making sure the distance is the same
+            //std::cout << "Distance: " << sqrt(pow((point1x - point2x),2) + pow((point1y - point2y), 2))<< std::endl;
             glBegin(GL_TRIANGLES);
             glVertex2f(point1x, point1y);
-            glVertex2f(offsetX, offsetY); 
+            glVertex2f(offsetX, offsetY); // middle point of shape
             glVertex2f(point2x, point2y);
             glEnd();
 
