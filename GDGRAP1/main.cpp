@@ -2,7 +2,6 @@
 #include <math.h>
 #include <iostream>
 
-//testyghjk
 
 void rotatePoint(float points[3], float angle, float result[3]) {
     float pi = 2 * acos(0.0);
