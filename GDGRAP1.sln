@@ -5,6 +5,11 @@ VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GDGRAP1", "GDGRAP1\GDGRAP1.vcxproj", "{65D0578F-943E-4C85-80FA-6C4B1142722A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{49840A16-8156-4008-92C0-C339ED1C261B}"
+	ProjectSection(SolutionItems) = preProject
+		GDGRAP1\Dependencies\include\glad\glad.h = GDGRAP1\Dependencies\include\glad\glad.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
